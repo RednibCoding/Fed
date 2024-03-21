@@ -1,0 +1,10 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\FedHere]
+"MUIVerb"="Fed here"
+; Optionaly define an icon
+"Icon"="C:\\Users\\mlb\\Documents\\DEV\\TOOLS\\fed\\fed.ico"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\FedHere\command]
+; Replace with actual path to fed.exe
+@="C:\\Users\\mlb\\Documents\\DEV\\TOOLS\\fed\\fed.exe \"%V\""

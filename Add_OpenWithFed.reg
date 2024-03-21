@@ -1,0 +1,11 @@
+Windows Registry Editor Version 5.00
+
+; Add context menu option for files
+[HKEY_CLASSES_ROOT\*\shell\OpenWithFed]
+"MUIVerb"="Open with Fed"
+; Optionally define an icon
+"Icon"="C:\\Users\\mlb\\Documents\\DEV\\TOOLS\\fed\\fed.ico"
+
+[HKEY_CLASSES_ROOT\*\shell\OpenWithFed\command]
+; Command to open right-clicked file with fed.exe
+@="C:\\Users\\mlb\\Documents\\DEV\\TOOLS\\fed\\fed.exe \"%1\""
